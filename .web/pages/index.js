@@ -233,31 +233,6 @@ export default function Component() {
   {`6`}
 </Text>
 </Box>
-  <Box sx={{"bg": "#EA5940", "aspectRatio": "1", "position": "relative"}}>
-  <Fragment>
-  {isTrue(true) ? (
-  <Fragment>
-  <Link as={NextLink} href={`https://github.com/vivianama`} isExternal={true} sx={{"position": "absolute", "textDecoration": "none", "_hover": {"color": "#EA5940", "textDecoration": "none"}}}>
-  <ChakraImage alt={`Proximamente`} src={`project/7.png`} sx={{"padding": "0.5em"}}/>
-</Link>
-</Fragment>
-) : (
-  <Fragment/>
-)}
-</Fragment>
-  <Fragment>
-  {isTrue(false) ? (
-  <Fragment>
-  <ChakraImage alt={`Regalo asociado al día 7`} src={`gift.png`} sx={{"position": "absolute", "padding": "0.5em"}}/>
-</Fragment>
-) : (
-  <Fragment/>
-)}
-</Fragment>
-  <Text sx={{"padding": "1em", "position": "absolute"}}>
-  {`7`}
-</Text>
-</Box>
 </SimpleGrid>
   <Script src={`/js/countdown.js`} strategy={`afterInteractive`}/>
 </VStack>
